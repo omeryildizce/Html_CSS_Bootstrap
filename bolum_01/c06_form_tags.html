@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="firstName">İsim: </label></td>
+                <td><input type="text" name="firstName"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Şifre: </label></td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="gender" id="">
+                        <option value="">Erkek</option>
+                        <option value="">Kadın</option>
+                    </select>
+                </td>
+                <td><label for="car">Favori araç </label>
+                    <select name="car" id="">
+                        <option value="">Audi</option>
+                        <option value="">BMW</option>
+                        <option value="">Fiat</option>
+                        <option value="">Lamborghini</option>
+                        <option value="">Mercedes</option>
+                        <option value="">Peugeot</option>
+                        <option value="">Renault</option>
+                        <option value="">Tesla</option>
+                        <option value="">Volvo</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+
+                    <textarea name="biography" id="" cols="27" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2">
+                    <input style="width:49%;"  type="submit" name="Kaydet" value="Kaydet" onclick="alert('Kayıt edildi.')"> 
+                    <input style="width:49%;"  type="reset" name="Temizle" value="Temizle"> </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
